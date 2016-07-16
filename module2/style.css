@@ -1,0 +1,79 @@
+/***** general styles *****/
+*{
+box-sizing: border-box;
+}
+.row {
+    width: 100%;
+    margin: 0;
+}
+h1{
+	font-style: italic;
+	text-align: center;
+}
+
+p.dish-name{
+	display: inline-block;
+	position: relative;
+	width : 20%;
+	left: 78%;
+	text-align: center;
+	border: 1px solid black;
+}
+p.dish-detail{
+	padding: 2px;
+}
+p#chicken{
+	background-color: rgb(180,67,101);
+}
+p#beef{
+	background-color: rgb(69,137,148);
+}
+p#sushi{
+	background-color: rgb(131,175,155);
+}
+
+
+section.container{
+	position: relative;
+	border: 1px solid black;
+	float: left;
+	background-color: grey;
+	margin-right: 15px;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
+/***** desktop *****/
+@media (min-width: 992px){
+.col-desktop-4 {
+	width: 33.33%;
+}
+/*section.container{
+	margin: 1.5%;
+}*/
+}
+
+/***** tablet *****/
+@media (min-width: 768px) and (max-width: 991px){
+.col-tablet-6{
+	width: 50%;
+}
+.col-tablet-12{
+	width: 100%;
+}
+/*section.container{
+	margin: 3%;
+}*/
+}
+
+/***** mobilephone *****/
+@media (max-width: 767px){
+.col-mobile-12{
+	width: 100%;
+}
+/*section.container{
+	margin: 5%;
+}*/
+
+
+}

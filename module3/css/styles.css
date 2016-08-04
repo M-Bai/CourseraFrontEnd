@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+.very-long {
+	
+	background-color: #fff;
+}
+#nav-list{
+	background-color: #ccc;
+}
+.navbar-nav li a:hover{
+	border: 1px solid rgb(231,231,231);
+}
+h1.huge-name{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.dish-tab{
+	height: 1000px;
+	background-color: #ccc;
+	margin: 5px;
+}
+a.back-to-top{
+	position: absolute;
+	display: inline-block;
+	bottom: 5px;
+}
+.dish-tab p{
+	padding: 6px;
+}
+a.bar{
+	text-align: center;
+}
